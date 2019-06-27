@@ -1,6 +1,7 @@
 package com.example.materialsdesign;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -16,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
         int duration = Toast.LENGTH_LONG;
         Context context = getApplicationContext();
         Toast.makeText(MainActivity.this, "One", Toast.LENGTH_SHORT).show();
-    }
+            }
 }
 
