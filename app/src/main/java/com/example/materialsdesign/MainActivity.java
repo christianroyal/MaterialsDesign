@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.relativelayout);
+        setContentView(R.layout.activity_main);
         CharSequence text = "Welcome!";
         int duration = Toast.LENGTH_LONG;
         Context context = getApplicationContext();
